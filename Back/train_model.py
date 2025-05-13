@@ -7,7 +7,7 @@ import joblib
 import os
 
 # 📁 Chemins
-BASE_DIR = r"D:\Projet_Ia_Indus"
+BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 DATA_PATH = os.path.join(BASE_DIR, "Data", "AB_NYC_2019_model_ready.csv")
 MODEL_PATH = os.path.join(BASE_DIR, "Data", "modele_prix_airbnb.joblib")
 FEATURES_PATH = os.path.join(BASE_DIR, "Data", "features_model.txt")
