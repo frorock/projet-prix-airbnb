@@ -1,0 +1,37 @@
+
+📊 Analyse de AB_NYC_2019_model_ready.csv - 2025-05-13 15:04:29
+--------------------------------------------------------------------------------
+🔢 Dimensions : 48072 lignes, 13 colonnes
+📛 Colonnes : ['latitude', 'longitude', 'nuits_min', 'nombre_avis', 'avis_par_mois', 'disponibilite_annuelle', 'forte_demande', 'prix', 'type_logement_private_room', 'type_logement_shared_room', 'quartier_brooklyn', 'quartier_manhattan', 'quartier_queens']
+🔠 Types :
+latitude                      float64
+longitude                     float64
+nuits_min                     float64
+nombre_avis                   float64
+avis_par_mois                 float64
+disponibilite_annuelle        float64
+forte_demande                   int64
+prix                            int64
+type_logement_private_room       bool
+type_logement_shared_room        bool
+quartier_brooklyn                bool
+quartier_manhattan               bool
+quartier_queens                  bool
+dtype: object
+❓ Valeurs manquantes :
+latitude                      0
+longitude                     0
+nuits_min                     0
+nombre_avis                   0
+avis_par_mois                 0
+disponibilite_annuelle        0
+forte_demande                 0
+prix                          0
+type_logement_private_room    0
+type_logement_shared_room     0
+quartier_brooklyn             0
+quartier_manhattan            0
+quartier_queens               0
+dtype: int64
+🧮 Total NaN : 0
+🗺️ Coordonnées hors NYC : 0 lignes

@@ -1,0 +1,14 @@
+latitude
+longitude
+nuits_min
+nombre_avis
+avis_par_mois
+disponibilite_annuelle
+forte_demande
+type_logement_private_room
+type_logement_shared_room
+quartier_brooklyn
+quartier_manhattan
+quartier_queens
+type_logement_entire_home/apt
+zone_geo

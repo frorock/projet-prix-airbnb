@@ -1,0 +1,65 @@
+
+📊 Analyse de AB_NYC_2019.csv - 2025-05-13 15:05:41
+--------------------------------------------------------------------------------
+🔢 Dimensions : 48895 lignes, 16 colonnes
+📛 Colonnes : ['id', 'name', 'host_id', 'host_name', 'neighbourhood_group', 'neighbourhood', 'latitude', 'longitude', 'room_type', 'price', 'minimum_nights', 'number_of_reviews', 'last_review', 'reviews_per_month', 'calculated_host_listings_count', 'availability_365']
+🔠 Types :
+id                                  int64
+name                               object
+host_id                             int64
+host_name                          object
+neighbourhood_group                object
+neighbourhood                      object
+latitude                          float64
+longitude                         float64
+room_type                          object
+price                               int64
+minimum_nights                      int64
+number_of_reviews                   int64
+last_review                        object
+reviews_per_month                 float64
+calculated_host_listings_count      int64
+availability_365                    int64
+dtype: object
+❓ Valeurs manquantes :
+id                                    0
+name                                 16
+host_id                               0
+host_name                            21
+neighbourhood_group                   0
+neighbourhood                         0
+latitude                              0
+longitude                             0
+room_type                             0
+price                                 0
+minimum_nights                        0
+number_of_reviews                     0
+last_review                       10052
+reviews_per_month                 10052
+calculated_host_listings_count        0
+availability_365                      0
+dtype: int64
+🧮 Total NaN : 20141
+
+📊 Statistiques descriptives des prix :
+count    48895.000000
+mean       152.720687
+std        240.154170
+min          0.000000
+25%         69.000000
+50%        106.000000
+75%        175.000000
+max      10000.000000
+Name: price, dtype: float64
+⚠️ Séjours > 365 nuits : 14
+👥 Hôtes avec > 50 annonces : 1322
+🗺️ Coordonnées hors NYC : 1 lignes
+
+💰 Prix moyen par quartier :
+neighbourhood_group
+Manhattan        196.875814
+Brooklyn         124.383207
+Staten Island    114.812332
+Queens            99.517649
+Bronx             87.496792
+Name: price, dtype: float64
