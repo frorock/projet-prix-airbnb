@@ -49,8 +49,7 @@ Une interface simple permet de prédire le prix en sélectionnant :
 
 * le type de logement
 * les paramètres du logement
-* une position sur la carte (latitude/longitude)
-
+  
 ## ✅ Lancer les tests
 
 ```bash
